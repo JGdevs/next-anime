@@ -3,7 +3,7 @@ import Layout from 'components/Layout';
 import PageLayout from 'components/PageLayout';
 import {getHentai} from 'services/animes';
 import Pagination from 'components/Pagination';
-import SearchBox from 'components/searchBox';
+import SearchBox from 'components/SearchBox';
 
 export default function Hentai ({animes,pagination}) {
 
