@@ -1,0 +1,17 @@
+.title {
+
+	width: 100%;
+	margin-top: var(--space-3xs);
+	font-size: var(--step--2);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	
+}
+
+.genre {
+
+	margin-top: var(--space-3xs);
+	font-size: var(--step--3);
+
+}

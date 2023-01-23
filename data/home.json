@@ -1,0 +1,63 @@
+{
+
+	"heroImages": [
+			
+		{
+
+			"title":"The newest",
+			"paragraph":"We have the newest premiere series from the moment of your emission in japan",
+			"link":"premiere"
+
+		},
+
+		{
+
+			"title":"The classics never die",
+			"paragraph":"Yuyu hasuko, Saint Seiya, Hokuto no Ken, classic animes to become in culture otaku",
+			"link":"classics"
+
+		},
+
+		{
+
+			"title":"Animes +18",
+			"paragraph":"Look in our catalogue also a variety selection of hentai",
+			"link":"hentai"
+
+		},
+
+		{
+
+			"title":"You don't know what to see",
+			"paragraph":"go through the popular catalog to see which series is trending",
+			"link":"trending"
+
+		},
+
+		{
+
+			"title":"All genres",
+			"paragraph":"Action, Romance, Drama. All genres get in this section and find that you are searching",
+			"link":"genres"
+
+		},
+
+		{
+
+			"title":"The better movies of anime",
+			"paragraph":"Akira, kimi no nawa, the chihiro travel and more. You can watch this also here",
+			"link":"movies"
+
+		},
+
+		{
+
+			"title":"Tired of reading",
+			"paragraph":"Get in our section of animes with translation",
+			"link":"dubbing"
+
+		}
+
+	]
+
+}

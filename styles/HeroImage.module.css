@@ -1,0 +1,179 @@
+.hero-image {
+
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	image-rendering: -webkit-optimize-contrast;
+	scroll-snap-align: center;
+
+}
+
+.bg-hero {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+	width: inherit;
+	color: var(--white-color);
+	background-color: #0005;
+
+}
+
+.bg-hero > * {margin-top: var(--space-xs);}
+
+.h2 {
+
+	text-align: center;
+	font-size: var(--step-2);
+
+}
+
+.p {
+
+	font-size: var(--step-0);
+	text-align: center;
+
+}
+
+.btn {
+
+	display: inline-block;
+	width: fit-content;
+	padding: .4rem var(--space-2xs);
+	font-size: var(--step--2);
+	text-align: center;
+	color: var(--white-color);
+	border: thin solid var(--white-color);
+	border-radius: .30rem;
+	transition: background-color .2s ease, border-color .2s ease;
+
+}
+
+.btn::first-letter {text-transform: uppercase;}
+
+.btn1:hover {
+
+	background-color: var(--gray-color);
+	border-color: var(--gray-color);
+
+}
+
+.btn2:hover {
+
+	background-color: var(--blue-color);
+	border-color: var(--blue-color);
+
+}
+
+.btn3:hover {
+
+	background-color: var(--red-color);
+	border-color: var(--red-color);
+
+}
+
+.btn4:hover {
+
+	background-color: var(--green-color);
+	border-color: var(--green-color);
+
+}
+
+.btn5:hover {
+
+	background-color: var(--red2-color);
+	border-color: var(--red2-color);
+
+}
+
+.btn6:hover {
+
+	background-color: var(--pink-color);
+	border-color: var(--pink-color);
+
+}
+
+.btn7:hover {
+
+	background-color: var(--yellow-color);
+	border-color: var(--yellow-color);
+
+}
+
+.bg-0 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-0.jpg');
+	background-position: center;
+
+}
+
+.bg-1 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-1.jpg');
+	background-position: left;
+
+}
+
+.bg-2 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-2.jpg');
+	background-position: right;
+
+}
+
+.bg-3 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-3.jpg');
+	background-position: left;
+
+}
+
+.bg-4 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-4.jpg');
+	background-position: right;
+
+}
+
+.bg-5 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-5.jpg');
+	background-position: left;
+
+}
+
+.bg-6 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-6.jpg');
+	background-position: right;
+
+}
+
+.bg-7 {
+
+	composes: hero-image;
+	background-image: url('/imgs/fondo-7.jpg');
+	background-position: left;
+
+}
+
+/* @media */
+
+@media screen and (max-width: 64rem) {
+
+	.p {
+
+		max-width: 85vw;
+
+	}
+
+}

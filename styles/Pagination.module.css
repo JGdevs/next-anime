@@ -1,0 +1,45 @@
+.container {
+
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-m);
+  list-style-type: none;
+
+}
+
+.item {
+
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  min-width: 2rem;
+  margin: auto .25rem;
+  padding: .75rem;
+  font-size: .81rem;
+  text-align: center;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  border-radius: 1rem;
+
+}
+
+.dots:hover {
+
+  background-color: transparent;
+  cursor: default;
+
+}
+
+.active {
+
+  background-color: #fff;
+  color: #000;
+
+}
+
+.item:hover {
+
+  color: #fff;
+  background-color: gray;
+
+}

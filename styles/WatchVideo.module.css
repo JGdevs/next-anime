@@ -1,0 +1,13 @@
+.container {
+
+  max-width: 64rem;
+  margin: 0 auto;
+
+}
+
+.container > video {
+
+  width: 100%;
+  height: auto;
+
+}

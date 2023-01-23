@@ -1,0 +1,14 @@
+{
+
+	"data": {
+
+		"opcion1":["bi-house-door-fill","Home","/"],
+		"opcion2":["bi-broadcast","Discover","/search"],
+		"opcion3":["bi-graph-up-arrow","Trendings","/trending"],
+		"opcion4":["bi-camera-reels-fill","Movies","/movies"],
+		"opcion5":["bi-tv-fill","Animes","/genres"],
+		"opcion6":["bi-stars","Producers","/staff"]
+
+	} 
+	
+}

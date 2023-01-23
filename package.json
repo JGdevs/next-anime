@@ -9,6 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ducanh2912/react-hls-player": "^3.3.5",
+    "axios": "^1.2.1",
+    "colorable-dominant": "^1.1.11",
+    "extract-colors": "^2.0.4",
+    "image-pixels": "^1.1.1",
+    "nekobocc": "^1.3.4",
     "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"

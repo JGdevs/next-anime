@@ -1,0 +1,38 @@
+.container {
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-top: var(--space-3xs);
+	margin-right: var(--space-2xs);
+	min-width: 12.5rem;
+
+
+}
+
+.container:focus-within > .arrow {rotate: 0deg;}
+
+.select {
+
+	width: 100%;
+	padding: .5rem;
+	font-size: var(--step--2);
+	color: #f9f9f9;
+	border: none;
+	outline: none;
+	appearance: none;
+	background-color: #1f242f;
+	border-radius: .2em;
+
+}
+
+.arrow {
+
+	position: absolute;
+	right: 5%;
+	font-size: .85rem;
+	rotate: 180deg;
+	pointer-events: none;
+
+}
+

@@ -1,0 +1,55 @@
+.containerForm {
+
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 7vh;
+
+}
+
+.form {
+
+	display: flex;
+	justify-content: center;
+	min-width: 18.75rem;
+	width: 80vw;
+
+}
+
+.input {
+
+	height: 2.5rem;
+	padding: 0 .8rem;
+	font-size: var(--step--3);
+	color: var(--white-color);
+	background-color: #161616;
+	border: none;
+	outline: none;
+	caret-color: #fff;
+
+}
+
+
+.text {
+
+	min-width: 12rem;
+	composes: input;
+	width: 50%;
+	border-radius: .9rem 0 0 .9rem;
+
+}
+
+.submit {
+
+	composes: input;
+	border-radius: 0 .9rem .9rem 0;
+	transition: ease-in .2s;
+
+}
+
+.submit:hover {
+
+	color: #000;
+	background-color: #fff;
+
+}
