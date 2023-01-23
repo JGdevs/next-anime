@@ -49,8 +49,6 @@ export async function getServerSideProps (context) {
 
 	res = await getHentai(query.page);
 
-	hentai();
-
   return {
 
     props: {
