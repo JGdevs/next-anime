@@ -24,7 +24,7 @@ const WelcomeSection = () => {
 
 			<article className={styles[`bg-hero`]}>
 				
-				<h2 className={styles.h2}>entretenimiento gratis todos los animes que quieras lo encuentras aqui</h2>
+				<h2 className={styles.h2}>Free entertainment all the animes you want you can find it here</h2>
 
 				<form className={stylesForm.form} onSubmit={searchAnime}>
 					
