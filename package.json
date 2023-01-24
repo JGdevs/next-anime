@@ -14,9 +14,9 @@
     "colorable-dominant": "^1.1.11",
     "extract-colors": "^2.0.4",
     "image-pixels": "^1.1.1",
-    "nekobocc": "^1.3.4",
-    "next": "13.0.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^13.1.5",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

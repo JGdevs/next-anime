@@ -1,3 +1,4 @@
+import {Suspense} from 'react';
 import Layout from 'components/Layout';
 import Image from 'next/legacy/image';
 import styles from '/styles/Serie.module.css';
@@ -33,11 +34,8 @@ export default function Serie ({info,colors,caps}) {
 	function buildDescription(title,description) {
 
 		let desc = `Watch ${title} here ${description}`;
-
 		return desc.substring(0,151);
 	}
-
-	console.log(info.genres);
 
 	return (
 
@@ -137,39 +135,43 @@ export default function Serie ({info,colors,caps}) {
 
 			</section>
 
-			<section className="mr-tp-s pd-tp-3 bg-light-dark">
+			<Suspense fallback={<p>Loading...</p>}>
 				
-				<p className="text-center fs-1">Episodes</p>
+				<section className="mr-tp-s pd-tp-3 bg-light-dark">
+				
+					<p className="text-center fs-1">Episodes</p>
 
-				{(caps.length > 0) 
+					{(caps.length > 0) 
 
-				? 
+					? 
 
-				<div className={styles.caps}>
-					
-					{caps && caps.map((cap,i) => {
+					<div className={styles.caps}>
+						
+						{caps && caps.map((cap,i) => {
 
-						const url = createVideoURL(info.title,cap.episode);
+							const url = createVideoURL(info.title,cap.episode);
 
-						return <Video defaultImage={info.images.webp.image_url} key={i} url={`/watch/${url}`} data={cap}/>
+							return <Video defaultImage={info.images.webp.image_url} key={i} url={`/watch/${url}`} data={cap}/>
 
-					})}
+						})}
 
-				</div>
+					</div>
 
 
-				: 
+					: 
 
-				<div className={styles.nothingCaps}>
-					
-					<i className="fs-4 bi-camera-reels-fill"></i>
-					<p className="pd-lf-2 pd-rg-2 fs--2">lo sentimos ahora mismo esta serie no tiene capitulos</p>
+					<div className={styles.nothingCaps}>
+						
+						<i className="fs-4 bi-camera-reels-fill"></i>
+						<p className="pd-lf-2 pd-rg-2 fs--2">lo sentimos ahora mismo esta serie no tiene capitulos</p>
 
-				</div>
+					</div>
 
-				}
+					}
 
-			</section>
+				</section>
+
+			</Suspense>
 
 		</Layout>
 

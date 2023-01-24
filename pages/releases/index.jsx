@@ -24,9 +24,9 @@ export default function Estrenos ({animes,pagination}) {
 
 	return (
 
-		<Layout title="Estrenos" description="Tenemos los mas recientes estrenos desde el momento de su emision en japon">
+		<Layout title="Releases" description="Tenemos los mas recientes estrenos desde el momento de su emision en japon">
 
-			<PageLayout title="Estrenos">
+			<PageLayout title="Releases">
 				
 				<Catalogue animes={animes}/>
 

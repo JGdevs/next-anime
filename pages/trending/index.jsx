@@ -24,9 +24,9 @@ export default function Populares ({animes,pagination}) {
 
 	return (
 
-		<Layout title="Populares" description="hechale un vistazo a lo mas populares para ver lo que es tendencia">
+		<Layout title="Trending" description="hechale un vistazo a lo mas populares para ver lo que es tendencia">
 
-			<PageLayout title="Populares">
+			<PageLayout title="Trending">
 				
 				<Catalogue animes={animes}/>
 

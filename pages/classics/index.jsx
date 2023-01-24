@@ -24,9 +24,9 @@ export default function Clasics ({animes,pagination}) {
 
 	return (
 
-		<Layout title="Clasicos" description="Yuyu hasuko, saint seiya, hokuto no ken, animes clasicos para que te conviertas en un otaku del cultura">
+		<Layout title="Classics" description="Yuyu hasuko, saint seiya, hokuto no ken, animes clasicos para que te conviertas en un otaku del cultura">
 
-			<PageLayout title="Clasicos">
+			<PageLayout title="Classics">
 				
 				<Catalogue animes={animes}/>
 

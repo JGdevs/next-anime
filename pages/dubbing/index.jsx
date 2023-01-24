@@ -23,7 +23,7 @@ export default function Doblaje ({animes,pagination}) {
 
 	return (
 
-		<Layout title="Doblaje" description="Entra a nuestra seccion de animes con doblaje original">
+		<Layout title="Dubbing" description="Entra a nuestra seccion de animes con doblaje original">
 
 			<Catalogue animes={animes}/>
 

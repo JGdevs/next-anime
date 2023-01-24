@@ -28,9 +28,9 @@ export default function Generos ({animes,pagination}) {
 
 	return (
 
-		<Layout title="Generos" description="accion,romance, drama, todos los generos, entra en esta seccion y encuentra lo que estas buscando">
+		<Layout title="Genres" description="accion,romance, drama, todos los generos, entra en esta seccion y encuentra lo que estas buscando">
 
-			<PageLayout title="Generos">
+			<PageLayout title="Genres">
 				
 				<div className="select-container">
 

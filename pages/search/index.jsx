@@ -10,7 +10,7 @@ import types from '/data/types.json';
 import PageLayout from '/components/PageLayout';
 import SearchBox from 'components/SearchBox';
 
-export default function searchResults ({animes,pagination,query}) {
+export default function searchResults ({animes,pagination,q}) {
 
 	const onPageChange = () => {
 
@@ -35,7 +35,7 @@ export default function searchResults ({animes,pagination,query}) {
 
 			<SearchBox/>
 
-			<PageLayout title={`Results for ${query}`}>
+			<PageLayout title={`Results for ${q}`}>
 				
 				<div className="select-container">
 
@@ -65,7 +65,7 @@ export async function getServerSideProps (context) {
 
 	const {query} = context,
 
-	{page} = query,
+	{q,page} = query,
 
 	params = new URLSearchParams(query).toString(),
 
@@ -76,7 +76,8 @@ export async function getServerSideProps (context) {
 		props: {
 
 			animes:res.data,
-			pagination:res.pagination
+			pagination:res.pagination,
+			q
 
 		}
 

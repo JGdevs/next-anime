@@ -27,9 +27,9 @@ export default function Movies ({animes,pagination}) {
 
 	return (
 
-		<Layout title="Peliculas" description="Akira,kimi no nawa,el viaje de chihiro y mas, puedes verlas tambien aca">
+		<Layout title="Movies" description="Akira,kimi no nawa,el viaje de chihiro y mas, puedes verlas tambien aca">
 
-			<PageLayout title="Peliculas">
+			<PageLayout title="Movies">
 				
 				<div className="select-container">
 

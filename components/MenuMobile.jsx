@@ -9,9 +9,9 @@ const MenuMobile = ({menuRef,handleMenu}) => {
 
 			<nav className={styles.menuMobile}>
 				
-				<Link href="/generos" onClick={handleMenu}>Generos</Link>
-				<Link href="/estrenos" onClick={handleMenu}>Estrenos</Link>
-				<Link href="/destacados" onClick={handleMenu}>Destacados</Link>
+				<Link href="/genres" onClick={handleMenu}>Genres</Link>
+				<Link href="/releases" onClick={handleMenu}>Releases</Link>
+				<Link href="/trending" onClick={handleMenu}>Trending</Link>
 
 			</nav>
 
